@@ -1,0 +1,10 @@
+/* navbar */
+.navy{
+    background-color:black;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+/* carosel */
