@@ -3,34 +3,72 @@ function About() {
 
 
   return (
-    <div>
-<div className="acontent">
-    <p> Welcome to our Bike Booking Portal – your one-stop destination for hassle-free bike rentals and bookings. We are passionate about making travel convenient, affordable, and enjoyable for everyone. Whether you need a bike for your daily commute, a weekend getaway, or an adventurous road trip, we’ve got you covered.</p> 
+ <div className="pt-24 min-h-screen bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-6">Crafting Confidence From the Ground Up</h1>
+          <p className="text-xl text-gray-500 leading-relaxed">
+            We are more than just a shoe store. We are a collective of dreamers, designers, and athletes dedicated to movement.
+          </p>
+        </div>
 
-     <h1>Our Mission </h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center mb-24">
+          <div className="relative h-[600px] overflow-hidden rounded-2xl shadow-2xl">
+            <img 
+              src="https://picsum.photos/seed/about_shoe_craft/800/1000" 
+              alt="Shoe Craftsmanship" 
+              className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" 
+            />
+          </div>
+          <div className="space-y-8">
+            <div>
+              <span className="text-sm font-semibold text-accent uppercase tracking-wider">Our Story</span>
+              <h3 className="text-3xl font-serif font-bold text-gray-900 mt-2 mb-4">Founded in 2026</h3>
+              <p className="text-gray-600 leading-relaxed text-lg">
+                At Sole & Soul, we believe that the right pair of shoes can change your entire day. 
+                Our mission is to bridge the gap between high-performance athletic wear 
+                and everyday luxury.
+              </p>
+            </div>
+            
+            <p className="text-gray-600 leading-relaxed text-lg">
+              Every stitch is intentional, every material selected for durability and comfort. 
+              Whether you're running a marathon or running a meeting, we support your journey.
+              We work with artisanal factories that value fair wages and sustainable practices.
+            </p>
 
-    <p>  Our mission is to empower riders with easy access to reliable bikes at the click of a button. We believe in promoting eco-friendly travel, reducing traffic congestion, and giving people the freedom to explore at their own pace.</p>
+            <div className="grid grid-cols-2 gap-8 pt-8 border-t border-gray-100">
+               <div>
+                  <h4 className="text-4xl font-bold text-gray-900 mb-1">2k+</h4>
+                  <p className="text-gray-500">Happy Customers</p>
+               </div>
+               <div>
+                  <h4 className="text-4xl font-bold text-gray-900 mb-1">30+</h4>
+                  <p className="text-gray-500">Unique Designs</p>
+               </div>
+            </div>
+          </div>
+        </div>
 
-     <h1> What We Offer</h1>
-
-     <p> Wide Range of Bikes: From scooters to premium motorcycles, we provide options to suit every rider’s need.<br/>
-
-      Affordable Pricing: Transparent pricing with no hidden charges.<br/>
-
-      Easy Booking: A seamless booking process that saves you time and effort.<br/>
-
-      Safety First: Well-maintained bikes with helmets and safety checks.<br/>
-
-      24/7 Support: Our team is always ready to assist you.</p>
-
-     <h1> Why Choose Us</h1>
-
-     <p>We combine technology with convenience to deliver a smooth rental experience. Our portal is designed to be user-friendly, ensuring that booking your ride is as simple as possible. With trusted partners and verified bikes, we guarantee quality and reliability.</p> 
-
-    <h1>  Our Vision </h1>
-
-     <p>We envision a future where bike rentals are the go-to choice for urban mobility. By offering flexible and sustainable travel solutions, we aim to build a community of riders who value freedom, adventure, and responsibility.</p> 
-</div>
+        {/* Values */}
+        <div className="bg-gray-100 rounded-3xl p-12 md:p-10">
+          <h2 className="text-3xl font-serif font-bold text-gray-1200 mb-12 text-center underline">Our Core Values</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div>
+              <h4 className="text-xl font-bold mb-4">Innovation First</h4>
+              <p className="text-gray-600">We constantly experiment with new materials and ergonomic designs to push the boundaries of footwear.</p>
+            </div>
+            <div>
+              <h4 className="text-xl font-bold mb-4">Sustainable Future</h4>
+              <p className="text-gray-600">We are committed to reducing our carbon footprint and using recycled materials whenever possible.</p>
+            </div>
+            <div>
+              <h4 className="text-xl font-bold mb-4">Customer Obsession</h4>
+              <p className="text-gray-600">Your comfort is our priority. We listen to feedback and continuously improve our products.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 
